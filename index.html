@@ -2,36 +2,73 @@
 <html lang="en">
 <head>
     <title>Document</title>
+    <!-- google font famliy link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <!-- cnd link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        header{
+            color:beige;
+            background-color: blueviolet;
+            width: 500px;
+        }
+        /* universal selector */
+        /* *{
+            margin: 0px;
+            padding: 0px;
+        } */
+       #follow{
+        margin-right: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+       }
+       nav,a{
+        margin-right: 20px;
+        margin-left: 20px;
+       }
+       .icon{
+        margin-right: 20px;
+       }
+        .userInfo {
+            margin-right: 30px;
+            font-size: 15px;
+        }
+        header{
+          background-color: gray;  
+          font-size: x-large;
+          font-family: 'Sriracha', cursive;
+          padding: 10px;
+          margin-left: 10px;
+          
+        }
+    </style>
 </head>
 <body>
     <header>
-        <i class="fa fa-user" aria-hidden="true"></i> <span>Mohit Shrma</span> &nbsp; &nbsp; 
-    <i class="fa fa-phone" aria-hidden="true"></i> <span>2345647465</span> &nbsp; &nbsp;
-    <i class="fa fa-envelope" aria-hidden="true"></i> <sapn>abc@gmail.com</sapn><br>
+     <i class="fa fa-user" aria-hidden="true"></i> <span class="userInfo">Mohit Shrma</span>  
+    <i class="fa fa-phone" aria-hidden="true"></i> <span class="userInfo">2345647465</span> 
+    <i class="fa fa-envelope" aria-hidden="true"></i> <sapn class="userInfo">abc@gmail.com</sapn><br>
     </header>
-
-    
     <br>
     <nav>
-        <a href="home.html" target="frame" >HOME</a> &nbsp; &nbsp; &nbsp;
-        <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp;
-        <a href="education.html" target="frame"> EDUCATION </a> &nbsp; &nbsp; &nbsp;
-        <a href="personal.html" target="frame"> PERSONAL </a> &nbsp; &nbsp; &nbsp;
-        <a href="contactus.html" target="frame"> CONTACT ME </a>
+        <a href="home.html" target="frame">HOME</a> 
+        <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> 
+        <a href="education.html" target="frame"  > EDUCATION </a> 
+        <a href="personal.html" target="frame" > PERSONAL </a> 
+        <a href="contactus.html" target="frame"  > CONTACT ME </a>
     </nav>
     <br>
-    <iframe width="900px" height="400px" name="frame" src="home.html">
+    <iframe width="900px" height="600px" name="frame" src="home.html">
     </iframe><br>
-        <span>follow me</span> &nbsp; &nbsp;
-    <a href="https://www.linkedin.com/feed/" target="_blank">
-    <i class="fa fa-linkedin" aria-hidden="true"></i></a> &nbsp; &nbsp; 
-    <a href="https://www.google.com/" target="_blank">
-    <i class="fa fa-google" aria-hidden="true"></i></a>&nbsp; &nbsp; 
-    <a href="https://www.instagram.com/" target="_blank">
-    <i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp; &nbsp;
-    <a href="https://www.facebook.com/" target="_blank">
-    <i class="fa fa-facebook-square" aria-hidden="true"></i></a><br>
-    <i class="fa fa-youtube" aria-hidden="true"></i>
-</body>
+        <span id="follow">follow me</span>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden ></i></a>
+                <a href="https://www.google.com/" target="_blank">
+                <i class="fa fa-google" aria-hidden="true"></i></a> 
+                <a href="https://www.instagram.com/" target="_blank"></i>
+                <i class="fa fa-instagram" aria-hidden="true" ></i></a>
+                <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa fa-facebook-square" aria-hidden="true" ></i></a>
 </html>
